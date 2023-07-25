@@ -6,7 +6,7 @@ const BackToTable = () => {
       <Link to={"/1"}>
         <button
           className={styles.back}
-        >{`Вернутся на страницу с таблицей`}</button>
+        >{`Перейти к таблице`}</button>
       </Link>
     </div>
   );
