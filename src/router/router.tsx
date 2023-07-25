@@ -7,6 +7,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <BackToTable />,
     children: [
       { index: true, element: <BackToTable /> },
       {
