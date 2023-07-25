@@ -5,7 +5,7 @@ import BackToTable from "../pages/back-to-table/back-to-table";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "https://hobager.github.io/ReactPosts/",
     element: <App />,
     children: [
       { index: true, element: <BackToTable /> },
