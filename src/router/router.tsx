@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <BackToTable /> },
       {
-        path: ":id",
+        path: "/ReactPosts/:id",
         element: <TablePage />,
       },
     ],
