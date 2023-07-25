@@ -1,0 +1,15 @@
+.back {
+  border-radius: 8px;
+  background-color: #474955;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 16px;
+  color: #ffffff;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,12 @@
+.indicator {
+  color: #474955;
+  display: flex;
+  font-style: italic;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.active {
+  color: #7ebc3c;
+}

@@ -1,0 +1,4 @@
+.posts {
+  border: 1px solid #e3e6ec;
+  min-height: calc(56px * 10);
+}

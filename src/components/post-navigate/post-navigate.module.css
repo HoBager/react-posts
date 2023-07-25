@@ -1,0 +1,24 @@
+.navigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  margin: 32px 0;
+}
+
+.navigate button {
+  font-size: 24px;
+  color: #474955;
+  font-weight: 500;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.navigate button:hover {
+  color: #7ebc3c;
+}
+
+.navigate button:disabled {
+  color: #8d8e98;
+  cursor: auto;
+}

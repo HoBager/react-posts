@@ -1,0 +1,23 @@
+.row {
+  min-height: 56px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #e3e6ec;
+  border-left: 1px solid #e3e6ec;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.cell:first-child {
+  justify-content: center;
+}
+
+.cell:last-child {
+  border-right: 1px solid #e3e6ec;
+}
